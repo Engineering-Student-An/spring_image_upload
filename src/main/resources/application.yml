@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/imageDB
+    username: image_user
+    password: 1234
+
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB     # ?? 1?? ?? ??
+#      max-request-size: 50MB  # ?? ???? ? ? ?? ??
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
